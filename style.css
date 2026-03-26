@@ -653,7 +653,9 @@ p.title{
 
 h1.title{
   font-size: 20px;
-  margin: auto;
+  margin-bottom: 0%;
+  margin-top: 5%;
+  width: 80%;
   text-align: center;
 }
 /*about me*/
