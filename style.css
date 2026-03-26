@@ -475,7 +475,7 @@ p.client{
   max-width: 75%;
 }
 
-span{
+span.green{
   color: #19b981 ;
 }
 p.ed{
@@ -704,6 +704,39 @@ nav.icons{
   max-width: 360px;
 }
 
+nav.card{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  gap: 2%;
+}
 
+a.card{
+  max-width: 45%;
+  margin: 3% auto;
+}
+
+a.card > p.card{
+  font-size: 4vw;
+}
+
+img.card{
+  width: 100%;
+}
+
+button.b{
+  width: 50vw;
+  height: 10vw;
+  font-size: 4vw;
+}
+
+p.card1{
+  display: none;
+}
+
+nav.all{
+  display: none;
+}
 
 }
